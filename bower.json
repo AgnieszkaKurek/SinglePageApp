@@ -1,0 +1,21 @@
+{
+  "name": "SinglePageApp",
+  "homepage": "https://github.com/AgnieszkaKurek/SinglePageApp",
+  "authors": [
+    "Agnieszka Kurek <agniechakurek@gmail.com>"
+  ],
+  "description": "0.0.0.",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.7",
+    "bootstrap": "^3.3.6"
+  }
+}
