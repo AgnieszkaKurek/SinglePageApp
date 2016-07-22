@@ -1,14 +1,13 @@
  <head lang="en" ng-app="eventsApp">
         <title>Single Page App</title>
-        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
-        <link rel="stylesheet" href="app.css"/>
+        <link rel="stylesheet" href="D:/IT/SimplePageApp/bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="D:/IT/SinglePageApp/app.css"/>
         <style type="text/css">
-        body 
-        {
+       
+       body {
              background-color:#ff9999;
              padding:25px;
-
-        }
+          }
 
         </style>
 
@@ -19,12 +18,12 @@
     <div class="navbar" ng-controller="MainMenuController">
         <div class="navbar-inner">
             <ul class="nav">
-                <li><a href="Home.html" >Joy to pigs!!! </a></li>
+                <li><a href="pages/Home.html" >Joy to pigs!!! </a></li>
             </ul>
         </div>
          <div class="navbar-inner">
             <ul class="nav">
-                <li><a href="Page2.html" >Pig's Fun and Event</a></li>
+                <li><a href="pages/Page2.html" >Pig's Fun and Event</a></li>
             </ul>
         </div>
     </div>
@@ -33,16 +32,11 @@
      <div ng-controller="Page2Controller" style="padding-left:20px; padding-right:20px">
         <div class="container" >
             <h1 ng-hide="editingEvent">Joy to pigs!!! </h1>
-             <img data-ng-src="{{event.imageUrl}}" src="257q546.jpg" />
+             <img data-ng-src="{{event.imageUrl}}" src="D:/IT/SinglePageApp/images/pinkpigi.jpg"/>
              
             <hr/>
 
     
-
-
-
-      
-
  <div class="container-fluid" ng-controller="EditProfileController">
     <form name="profileForm">
         <div class="row-fluid">
@@ -80,13 +74,8 @@
         </div>
     </form>
 </div>
-<div ><img width="300" height="300" src="257q546.jpg" /></div>
-
-
-
-    
-
-    
+<div ><img width="300" height="300" src="D:/IT/SinglePageApp/images/pinkpigi.jpg"/></div>
+ 
 </body>
 
 </html>

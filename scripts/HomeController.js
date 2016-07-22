@@ -12,7 +12,7 @@ eventsApp.controller('HomeController',
         };
 
         $scope.cancelEdit = function () {
-            window.location = "/Home.html";
+            window.location = "Home.html";
         };
 
     }
