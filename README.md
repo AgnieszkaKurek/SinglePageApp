@@ -1,5 +1,7 @@
 #SinglePageApp
-      ##To run a website on own browser ,should  clone "SinglePageApp" repository  and give command  "bower install" on the command line.Disregard these activitis,  make  that website does not work (frameworks to angular and  bootstrap they are in file .gitignore – reduced to proiect weight).
+
+
+To run a website on own browser ,should  clone "SinglePageApp" repository  and give command  "bower install" on the command line.Disregard these activitis,  make  that website does not work (frameworks to angular and  bootstrap they are in file .gitignore – reduced to proiect weight).
 
  ##"SinglePageApp" is  humorous, simple website  addressed  to pigs lovers (domestic pigs, micro pigs and others).
 On  web page you can put information  about events  targeted at people interested  in the subject of pigs(animal exhibition, panel discussions  on vegetarianism and veanism, theme party. In the future,  the website  will function search events.
