@@ -1,7 +1,7 @@
  <head lang="en" ng-app="eventsApp">
         <title>Single Page App</title>
-        <link rel="stylesheet" href="D:/IT/SinglePageApp/bower_components/bootstrap/dist/css/bootstrap.min.css"/>
-        <link rel="stylesheet" href="D:/IT/SinglePageApp/style/app.css"/>
+        <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="../style/app.css"/>
         <style type="text/css">
         body 
         {
@@ -18,12 +18,12 @@
     <div class="navbar" ng-controller="MainMenuController">
         <div class="navbar-inner">
             <ul class="nav">
-                <li><a href="D:/IT/SinglePageApp/pages/Home.html" >Joy to pigs!!! </a></li>
+                <li><a href="../pages/Home.html" >Joy to pigs!!! </a></li>
             </ul>
         </div>
          <div class="navbar-inner">
             <ul class="nav">
-                <li><a href="D:/IT/SinglePageApp/pages/Page2.html" >Pig's Fun and Event</a></li>
+                <li><a href="../pages/Page2.html" >Pig's Fun and Event</a></li>
             </ul>
         </div>
     </div>
@@ -32,7 +32,7 @@
     <div ng-controller="HomeController" style="padding-left:20px; padding-right:20px">
         <div class="container" >
             <h1 ng-hide="editingEvent">Pig Event</h1>
-             <img data-ng-src="{{event.imageUrl}}" src="D:/IT/SinglePageApp/images/twoPigs.jpg" />
+             <img data-ng-src="{{event.imageUrl}}" src="../images/twoPigs.jpg" />
              
             <hr/>
             <form name="editEventForm">
@@ -64,7 +64,7 @@
             </form>
         </div>
 
-    <div ><img width="300" height="300" src="D:/IT/SinglePageApp/images/twoPigs.jpg" /></div>
+    <div ><img width="300" height="300" src="../images/twoPigs.jpg" /></div>
 
 
   
