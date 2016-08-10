@@ -7,10 +7,10 @@ var eventsApp = angular.module('eventsApp', ['ngResource'])
      templateUrl:'templates/Home.html',
      controller: 'HomeController'
  });
-  $routeProvider.when('/Page2',
+  $routeProvider.when('/Eventspage',
  {
-     templateUrl:'templates/Page2.html',
-     controller: 'Page2Controller'
+     templateUrl:'templates/Eventspage.html',
+     controller: 'EventspageController'
  });
 
 

@@ -1,6 +1,6 @@
 'use strict';
 
-eventsApp.controller('Page2Controller',
+eventsApp.controller('EventspageController',
     function Page2Controller($scope,$location, eventData) {
 
         $scope.events = eventData.getAllEvents();
