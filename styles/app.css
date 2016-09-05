@@ -1,4 +1,9 @@
 /* app css stylesheet */
+body {
+   background-color:#ff9999;
+   padding:25px;
+}
+ 
 .hoverwell:hover {
   background-color: #ff9999;
   cursor: pointer;
