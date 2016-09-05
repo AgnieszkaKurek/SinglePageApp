@@ -3,7 +3,6 @@
 eventsApp.controller('EventController',
    
 function EventController($scope) {
-    
     $scope.event = {
         name: 'Prosius Birthday',
         date: '01/02/2017',
