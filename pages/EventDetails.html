@@ -19,10 +19,13 @@
     <div class="container">
         <div class="navbar">
             <div class="navbar-inner">
-                <ul class="nav"></ul>
+                <ul class="nav">
+                    
+                </ul>
             </div>
         </div>
         <div ng-controller="EventController">
+            <img data-ng-src="{{event.imageUrl}}" alt="{{event.name}} />
           <div class="row"> 
               <div class="spann11">
                   <h2>{{event.name}}</h2>
@@ -46,6 +49,7 @@
         </div>
     </div>
 <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+
 <script src="../bower_components/angular/angular.js"></script>
 <script src="../scripts/app.js"></script>
 <script src="../scripts/EventController.js"></script>

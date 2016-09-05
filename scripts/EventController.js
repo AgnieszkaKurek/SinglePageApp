@@ -11,7 +11,8 @@ function EventController($scope) {
     location: {
         address: 'Czeremchowa',
         city:'Lublin'
-    }
+    },
+    imageUrl: '../images/pig.jpg'
     }
 
 }
