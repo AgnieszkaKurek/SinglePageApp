@@ -13,6 +13,5 @@ var eventsApp = angular.module('eventsApp', ['ngRoute'])
      controller: 'EventspageController'
  });
 
-
 });
   

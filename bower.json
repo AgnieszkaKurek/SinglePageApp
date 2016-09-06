@@ -4,14 +4,12 @@
   "authors": [
     "Agnieszka Kurek <agniechakurek@gmail.com>"
   ],
-  "description": "0.0.0.",
   "main": "index.html",
   "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components"
-    
   ],
   "dependencies": {
     "angular": "^1.5.7",

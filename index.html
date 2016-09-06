@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<htmllang="en" ng-app="eventsApp">
+<html lang="en" ng-app="eventsApp">
     <head >
         <title>Single Page App</title>
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="styles/app.css"/>
-        
     </head>
     <body>
-    <script type="text/javascript">
+<script type="text/javascript">
   function HelloWorldCtrl($scope) {
       $scope.helloMessage = "Hello Pig Lovers";
   }
@@ -25,14 +24,10 @@
             </ul>
         </div>
     </div>
-
     <ng-view></ng-view>
-
-
 <script src="bower_components/angular/angular.js"></script>
 <script src="bower_components/angular-route/angular-route.js"></script>
 <script src="scripts/app.js"></script>
 <script src="scripts/HomeController.js"></script>
-
     </body>
 </html>

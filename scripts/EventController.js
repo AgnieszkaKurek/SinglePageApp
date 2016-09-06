@@ -13,8 +13,5 @@ function EventController($scope) {
     },
     imageUrl: '../images/pig.jpg'
     }
-
 }
-
-    
 );

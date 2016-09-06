@@ -20,13 +20,11 @@
             </ul>
         </div>
     </div>
-
     <ng-view></ng-view>
     <div ng-controller="HomeController" style="padding-left:20px; padding-right:20px">
         <div class="container" >
             <h1 ng-hide="editingEvent">Pig Event</h1>
-             <img data-ng-src="{{event.imageUrl}}" src="../images/twoPigs.jpg" />
-             
+             <img data-ng-src="{{event.imageUrl}}" src="../images/twopigs.jpg" />
             <hr/>
             <form name="editEventForm">
                 <fieldset>
@@ -41,26 +39,15 @@
                     <br />
                     <input id="eventCity" type="text" required class="input-small" placeholder="City..." ng-model="event.location.city" />
                     <input id="eventProvince" type="text" required class="input-small" placeholder="Province..." ng-model="event.location.province" />
-
                     <label for="eventImageUrl">Image:</label>
                     <input id="eventImageUrl" type="url" required class="input-xlarge" placeholder="Url of image..." ng-model="event.imageUrl" />
-
                 </fieldset>
-
-               
                 <br />
                 <br />
-
                 <button type="submit" class="btn btn-primary" ng-click="saveEvent(event, editEventForm)">Save</button>
                 <button type="button" class="btn btn-default" ng-click="cancelEdit()">Cancel</button>
-
             </form>
         </div>
-
-    <div ><img width="300" height="300" src="../images/twoPigs.jpg" /></div>
-
-
-  
+    <div ><img width="300" height="300" src="../images/twopigs.jpg" /></div>
 </body>
-
 </html>
