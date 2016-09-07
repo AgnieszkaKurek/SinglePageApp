@@ -11,7 +11,7 @@ function EventController($scope) {
         address: 'Czeremchowa',
         city:'Lublin'
     },
-    imageUrl: '../images/Pig.jpg'
+    imageUrl: '../images/pig.jpg'
     }
 }
 );
