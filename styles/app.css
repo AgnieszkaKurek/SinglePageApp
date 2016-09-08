@@ -2,6 +2,12 @@
 body {
    background-color:#ff9999;
    padding:25px;
+   padding-left: 20px;
+   padding-right: 25px;
+}
+
+h6 {
+  margin-top: -10px;
 }
  
 .hoverwell:hover {
@@ -16,6 +22,7 @@ select, textarea {
   margin-top: 0px;
 }
 .session {
+
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -34,7 +41,7 @@ select, textarea {
   cursor:pointer;
 }
 
-.sessionThumbnail {
+.sessionThumbnails {
   height: 100%;
   overflow: hidden;
 }
