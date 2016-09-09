@@ -1,6 +1,6 @@
 'use strict';
 
-eventsApp.controller('EventController',
+eventsApp.controller('eventController',
 function EventController($scope) {
     
     $scope.event = {
@@ -18,18 +18,18 @@ function EventController($scope) {
             creatorName:'Ryjek',
             duration:'4h',
             abstract:'Fun at the cake and other delicacies with friends and family.',
-            upVoteCount: 0
+           
         },
         {
             name: 'Fun for pigs',
             creatorName:'Ryjek',
             duration:'1h',
-            abstract:'Dancing party for large and small  piggies.You can twist your ham.',
-            upVoteCount: 0
-        },
-        
+            abstract:'Dancing party for large pigs and small  piggies.You can twist your ham.',
            
+
+        }
     ]
     }
+
 }
 );
